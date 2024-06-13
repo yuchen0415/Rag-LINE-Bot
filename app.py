@@ -3,7 +3,7 @@ import sys
 from distutils.util import strtobool
 
 from flask import Flask, abort, request
-from gevent import pywsgi
+#from gevent import pywsgi
 from langchain.chains import RetrievalQA
 from langchain_core.output_parsers import StrOutputParser
 from langchain.memory import ConversationBufferMemory
